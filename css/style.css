@@ -146,9 +146,17 @@ body {
   padding-bottom: 60px;
   background-color: #2f303a;
 }
+.list-contacts {
+  margin-top: 20px;
+}
+.list-contacts > .item {
+  padding-bottom: 9px;
+}
+.list-contacts > .item:last-child {
+  padding-bottom: 0;
+}
 .location-address,
 .location-address:focus {
-  margin-bottom: 9px;
   font-style: normal;
   font-weight: 400;
   font-size: 14px;
@@ -159,7 +167,6 @@ body {
 }
 .footer-connection,
 .footer-connection:focus {
-  margin-bottom: 6px;
   font-style: normal;
   text-decoration: none;
   font-weight: 400;
@@ -173,18 +180,21 @@ body {
 }
 /* Контейнер */
 .container {
-  width: 1200px;
+  width: 1230px;
+  padding-left: 15px;
+  padding-right: 15px;
   margin-left: auto;
   margin-right: auto;
 }
 .section {
-  padding-top: 94px;
   padding-bottom: 94px;
 }
 /* Тело страницы студия */
 /* Секция промо (Продвижение, реклама) */
 
 .promo {
+  padding-top: 200px;
+  padding-bottom: 200px;
   text-align: center;
   background-color: #2f303a; /* Заливка фона секции */
 }
@@ -255,6 +265,9 @@ body {
   text-align: center;
   letter-spacing: 0.03em;
   color: #212121;
+}
+.hidden-header {
+  visibility: hidden;
 }
 /* Секция наша команда */
 /* Заглавие 3 уровня в ячейках каждого члена команды */
@@ -356,11 +369,12 @@ body {
 .list-item:nth-child(n + 7) {
   margin-bottom: 0;
 }
+/* Заголовок и описание */
+.about-project {
+  padding: 20px 24px;
+}
 /* Заголовок проекта */
 .projects-title {
-  margin-top: 20px;
-  margin-right: 24px;
-  margin-left: 24px;
   margin-bottom: 4px;
   font-size: 18px;
   line-height: 2;
@@ -369,9 +383,6 @@ body {
 }
 /* Орисание проектов */
 .projects-description {
-  margin-right: 24px;
-  margin-left: 24px;
-  margin-bottom: 20px;
   font-weight: 400;
   font-size: 16px;
   line-height: 1.87;
