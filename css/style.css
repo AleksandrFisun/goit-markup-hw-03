@@ -281,9 +281,6 @@ padding-bottom: 0;
   justify-content: space-between;
 }
 /* Коробка для заголовка и описания тимы */
-.team-box{
-
-}
 .team-cells {
   width: 270px;
   background-color: #ffffff;
