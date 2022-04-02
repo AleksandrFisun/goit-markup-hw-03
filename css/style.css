@@ -187,6 +187,7 @@ body {
   margin-right: auto;
 }
 .section {
+  padding-top: 94px;
   padding-bottom: 94px;
 }
 /* Тело страницы студия */
@@ -253,6 +254,9 @@ body {
 }
 /* Секция чем мы занимаемся */
 /* Класс для стилизации заголовков 2 уровня */
+.section-skills{
+padding-bottom: 0;
+}
 .list-features {
   display: flex;
   justify-content: space-between;
@@ -266,17 +270,19 @@ body {
   letter-spacing: 0.03em;
   color: #212121;
 }
-.hidden-header {
-  visibility: hidden;
-}
 /* Секция наша команда */
 /* Заглавие 3 уровня в ячейках каждого члена команды */
 .section-team {
+  padding-top: 94px;
   background-color: #f5f4fa;
 }
 .team {
   display: flex;
   justify-content: space-between;
+}
+/* Коробка для заголовка и описания тимы */
+.team-box{
+
 }
 .team-cells {
   width: 270px;
