@@ -180,7 +180,7 @@ body {
 }
 /* Контейнер */
 .container {
-  width: 1230px;
+  width: 1200px;
   padding-left: 15px;
   padding-right: 15px;
   margin-left: auto;
@@ -289,10 +289,13 @@ padding-bottom: 0;
     0px 2px 1px rgba(0, 0, 0, 0.2);
   border-radius: 0px 0px 4px 4px;
 }
+.team-box{
+  padding-top: 30px;
+  padding-bottom: 30px;
+}
 .team-title {
   font-weight: 500;
   font-size: 16px;
-  padding-top: 30px;
   padding-bottom: 10px;
   line-height: 1.18;
   letter-spacing: 0.03em;
@@ -300,7 +303,6 @@ padding-bottom: 0;
 }
 /* Описание рода деятельности члена команды */
 .team-text {
-  margin-bottom: 30px;
   font-weight: 400;
   font-size: 16px;
   line-height: 1.18;
@@ -360,9 +362,6 @@ padding-bottom: 0;
   display: block;
 }
 .list-item {
-  background: #ffffff;
-  border: 1px solid #eeeeee;
-  box-sizing: border-box;
   margin-right: 30px;
   margin-bottom: 30px;
 }
@@ -374,11 +373,15 @@ padding-bottom: 0;
 }
 /* Заголовок и описание */
 .about-project {
+
+  background: #ffffff;
+  border: 1px solid #eeeeee;
+  box-sizing: border-box;
   padding: 20px 24px;
 }
 /* Заголовок проекта */
 .projects-title {
-  margin-bottom: 4px;
+  padding-bottom: 4px;
   font-size: 18px;
   line-height: 2;
   letter-spacing: 0.06em;
