@@ -311,7 +311,7 @@ padding-bottom: 0;
 
 /*Стили тела страницы портфолио*/
 /* Заголовок нужно визуально скрыть */
-.title-project {
+.headline-hidden {
   font-weight: 900;
   font-size: 44px;
   line-height: 1.4;
@@ -319,6 +319,17 @@ padding-bottom: 0;
   letter-spacing: 0.06em;
   text-transform: uppercase;
   color: #212121;
+/*Визуальное скрытие, но для читалок остается. */
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  margin: -1px;
+  border: 0;
+  padding: 0;
+  white-space: nowrap;
+  clip-path: inset(100%);
+  clip: rect(0 0 0 0);
+  overflow: hidden;
 }
 /* Меню сортировки поиска работ компании */
 .button-sorting {
